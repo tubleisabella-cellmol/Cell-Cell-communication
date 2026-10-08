@@ -1,0 +1,11 @@
+step,item,finding,source
+sender,FGF7 in fibroblast,cell type enhanced RNA in fibroblasts; secreted protein,HPA
+ligand,FGF7,predicted secreted growth factor,HPA
+receptor,FGFR2,directed FGF7 to FGFR2 interaction (29 references),OmniPath
+receiver,FGFR2 in keratinocyte,not enriched in squamous epithelial cells; choice rests on literature,HPA
+downstream,FGFR2 to FRS2/GRB2/PLCG1,directed interactions (14/12/17 references),OmniPath
+network,FGF7/FGFR2/FRS2/GRB2/SOS1/PLCG1/MAPK1,7 nodes and 20 edges with PPI p = 5.12e-13,STRING
+enrichment,FGFR signaling pathway,FDR 3.96e-08,STRING (GO:0008543)
+enrichment,downstream signaling of activated FGFR2,FDR 1.38e-13,STRING (Reactome HSA-5654696)
+enrichment,Ras signaling pathway,FDR 7.23e-09,STRING (KEGG hsa04014)
+validation,FGFR2 and GRB2,direct interaction by light scattering (PMID 22726438),IntAct
